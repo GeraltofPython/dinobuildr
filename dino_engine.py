@@ -160,6 +160,15 @@ def hash_file(filename, man_hash):
             return hash
     return False
 
+ 
+  # downloads the release SHA256 html page so I can use that file to search for the hash
+  def hashpage(url):
+    import urllib
+    url = 'http://releases.mozilla.org/pub/firefox/releases/77.0.1/SHA256SUMS'
+    urllib.urlretrieve(url, filename='hash.html')
+    file = open("hash.html", "r") 
+    return file
+
 # the pointer_to_json function accepts the url of the file in the github repo
 # and the password to the repo. the pointer file is read from github then
 # parsed and the "oid sha256" and "size" are extracted from the pointer. an
