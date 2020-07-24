@@ -13,11 +13,11 @@
         {
             "item": "Download Wallpaper Image",
             "version": "",
-            "url": "resources/wallpaper.jpg",
+            "url": "resources/wallpaper-firefox.png",
             "filename": "",
             "dmg-installer": "",
             "dmg-advanced": "",
-            "hash": "8b5771b813bd684ee3ff8f6a2c205c249ca127c7c5f92c9b92b1b8fdecd389a4",
+            "hash": "8bfcd15ba06b76335e8dd54c547f3778ea064479b34f56f51a40ad75ee5d4f19",
             "type": "file-lfs"
         },
         {
@@ -27,7 +27,7 @@
             "filename": "",
             "dmg-installer": "",
             "dmg-advanced": "",
-            "hash": "00fc7b36eef9acd1c069cad10228037b1906ea79dc627f3fd6ab8a2a8e2a216c",
+            "hash": "ae3028cc75aa5f0bd221f8ab3314edab3c62e7855eda684fbb06f77f13c85942",
             "type": "shell"
         },
         {
@@ -72,12 +72,12 @@
         },
         {
             "item": "Install Crashplan",
-            "version": "7.0.0",
-            "url": "https://download.code42.com/installs/mac/install/Code42CrashPlan/Code42CrashPlan_${version}_Mac.dmg",
+            "version": "",
+            "url": "https://download.code42.com/installs/agent/cloud/8.0.0/778/install/Code42CrashPlan_8.0.0_1525200006800_778_Mac.dmg",
             "filename": "",
             "dmg-installer": "Install Code42 CrashPlan.pkg",
             "dmg-advanced": "",
-            "hash": "a9de994edd0dc3bcc22564d91edbb153054b29a76904f2464ec9616d22d1c434",
+            "hash": "78430844a457482442328193c5b7c1ff8373668c2ec7b93c68942897d44b7f55",
             "type": "dmg"
         },
         {
